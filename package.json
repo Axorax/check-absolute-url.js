@@ -1,0 +1,26 @@
+{
+  "name": "check-absolute-url",
+  "version": "1.0.0",
+  "description": "Validate absolute URLs in strings and arrays",
+  "main": "check-absolute-url.js",
+  "exports": {
+    "import": "./check-absolute-url.js",
+    "require": "./check-absolute-url.cjs"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axorax/check-absolute-url.js.git"
+  },
+  "keywords": [
+    "check-absolute-url",
+    "absolute-url",
+    "is-absolute-url"
+  ],
+  "author": "Axorax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Axorax/check-absolute-url.js/issues"
+  },
+  "homepage": "https://github.com/Axorax/check-absolute-url.js#readme"
+}

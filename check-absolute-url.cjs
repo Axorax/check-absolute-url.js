@@ -1,0 +1,1 @@
+function checkAbsoluteUrl(t){try{let r=/^https?:\/\/|ftp:\/\//i;if(!Array.isArray(t))return!!t.match(r);{let c=[];return t.forEach(t=>{c.push(!!t.match(r))}),c}}catch(e){return!1}}module.exports=checkAbsoluteUrl
